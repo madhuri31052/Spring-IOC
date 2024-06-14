@@ -1,6 +1,6 @@
 package com.example.inversion_control;
 
-public class OnePlus implements Mobiles {
+public class OnePlus implements Mobile {
 	
 	Color color;
 	

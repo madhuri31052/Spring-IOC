@@ -1,6 +1,6 @@
 package com.example.inversion_control;
 
-public class IPhone implements Mobiles {
+public class IPhone implements Mobile {
 
 	@Override
 	public void getModelAndColor() {

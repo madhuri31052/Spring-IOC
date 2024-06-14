@@ -12,7 +12,7 @@ public class InversionControlApplication {
 		// Spring Bean Container    
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(MobilesConfig.class);     // To use MobilesConfig
 		
-		Mobiles obj = context.getBean("getOnePlusObject", Mobiles.class);       // To use the bean from MobilesConfig
+		Mobile obj = context.getBean("getOnePlusObject", Mobile.class);       // To use the bean from MobilesConfig
 		obj.getModelAndColor();                                                 // To get inside bean
 	} 
 

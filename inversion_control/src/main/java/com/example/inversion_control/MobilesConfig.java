@@ -14,12 +14,12 @@ public class MobilesConfig {
 	}
 	
 	@Bean 
-	public Mobiles getOnePlusObject(Color getColor) {
+	public Mobile getOnePlusObject(Color getColor) {
 		return new OnePlus(getColor);
 	}
 	
 	@Bean
-	public Mobiles getIPhoneObject() {
+	public Mobile getIPhoneObject() {
 		return new IPhone();
 	}
 }

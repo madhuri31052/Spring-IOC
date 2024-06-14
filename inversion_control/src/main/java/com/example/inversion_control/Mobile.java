@@ -1,6 +1,6 @@
 package com.example.inversion_control;
 
-public interface Mobiles {
+public interface Mobile {
 
 	public void getModelAndColor();
 }
